@@ -13,6 +13,7 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .product img{
     width: 100%;
@@ -22,10 +23,12 @@
 .product h2{
     color: #000;
     margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .product p{
     color: #000;
     margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ul{
     list-style-type: none ;
@@ -35,9 +38,10 @@ ul{
     background-color: maroon;
 }
 li{
+
     float: left;
 }
-li a{
+li a{ 
     text-decoration: none;
     color: black;
     padding: 20px 20px;
@@ -47,4 +51,11 @@ li a{
 li img{
     width: 60px;
     height: 70px;
+}
+body{
+    background-color: white;
+}
+button{
+    background-color: white;
+    border-style: transparent;
 }

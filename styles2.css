@@ -39,16 +39,19 @@ h1{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2{
+
+}
 p{
     font-size: 30px;
-    color: white;
+    color: black;
 }
 .imageofsportsequipment{
     background-color: white;
     height: 520px;
     width: 520px;
     position: relative;
-    background-color: crimson;
+    background-color: rgb(92, 91, 91);
     padding: 20px;
     left: 700px;
     bottom: 590px;
@@ -57,16 +60,19 @@ p{
     height: 500px;
     width: 500px;
     position: relative;
+    
 }
 .shop{
     height: 70px;
     width: 300px;
     padding: 10px;
-    background-color: black;
+    background-color: white;
 }
 p a{
     text-decoration: none;
-    color: white;
+    color: black;
+    position: center;
+    padding: 10px;
 }
 .shop-now{
     background-color: black;
@@ -74,4 +80,16 @@ p a{
     position: relative;
     left: 20px;
     margin-top: 10px;
+    outline: 0px solid transparent;
+    border: transparent;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.our-mission{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: white;
 }
